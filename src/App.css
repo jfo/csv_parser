@@ -1,0 +1,8 @@
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    position: fixed;
+    top: 20px;
+    bottom: 20px;
+    width: 100%;
+}
