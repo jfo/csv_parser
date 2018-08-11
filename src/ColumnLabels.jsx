@@ -12,10 +12,10 @@ const calculateCss = (key, xPos) => {
   if (key === 0) {
     css.backgroundColor = '#000000'
   }
-
-  if (xPos && xPos === key) {
-    css.backgroundColor = '#dddddd'
-  }
+  // 
+  // if (xPos && xPos === key) {
+  //   css.backgroundColor = '#dddddd'
+  // }
   return css
 }
 

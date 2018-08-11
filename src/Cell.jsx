@@ -10,9 +10,9 @@ const calculateCss = (x, y, xPos, yPos) => {
       fontWeight : 'bold',
       backgroundColor : '#f0f0f0'
     }
-    if (yPos && y === yPos) {
-      css.backgroundColor = '#dddddd'
-    }
+    // if (yPos && y === yPos) {
+    //   css.backgroundColor = '#dddddd'
+    // }
   } else if (x === xPos && y === yPos) {
     css.backgroundColor = '#dddddd'
   }
