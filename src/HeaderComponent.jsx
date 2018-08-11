@@ -18,19 +18,15 @@ class HeaderComponent extends Component {
   }
 
   hideDropdownMenu = event => {
-    console.log('Yo')
     this.setState({ displayMenu: false }, () => {
       document.removeEventListener('click', this.hideDropdownMenu)
     })
   }
 
   updateEventStatus = event  => {
-    console.log('Hi')
-    console.log(this.state.displayMenu)
     this.setState({
       displayMenu : false,
     })
-    console.log('Hmm')
   }
 
   render() {

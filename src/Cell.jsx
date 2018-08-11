@@ -1,10 +1,8 @@
 import React from 'react'
-import { connect } from 'react-redux'
 import './Cell.css'
 
 
 const calculateCss = (x, y, xPos, yPos) => {
-  console.log(`${xPos} ${yPos}`)
   let css = {}
   if (x === 0) {
     css = {
@@ -12,7 +10,7 @@ const calculateCss = (x, y, xPos, yPos) => {
       fontWeight : 'bold',
       backgroundColor : '#f0f0f0'
     }
-    if (yPos && y == yPos) {
+    if (yPos && y === yPos) {
       css.backgroundColor = '#dddddd'
     }
   } else if (x === xPos && y === yPos) {
