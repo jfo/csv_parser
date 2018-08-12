@@ -10,9 +10,6 @@ const Row = props => (
           key={`${props.y}-${x}`}
           y={props.y}
           x={x}
-          onCellClick={props.onCellClick}
-          xPos={props.xPos}
-          yPos={props.yPos}
         />
       ))
     }

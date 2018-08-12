@@ -23,9 +23,6 @@ class Table extends PureComponent {
               key={y}
               row={row}
               y={y}
-              onCellClick={props.onCellClick}
-              xPos={props.xPos}
-              yPos={props.yPos}
             />
           ))
         }
