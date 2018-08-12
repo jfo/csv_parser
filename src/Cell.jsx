@@ -22,7 +22,7 @@ const Cell = props => (
   <span
     className="Cell"
     style={calculateCss(props.active, props.x)}
-    onClick={() => props.onCellClick(props.x, props.y)}>
+    onMouseDown={() => props.onCellClick(props.x, props.y)}>
     {props.cell}
   </span>
 );
